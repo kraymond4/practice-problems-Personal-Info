@@ -19,6 +19,13 @@ public class PersonalInfoPractice
      */
     public static void main(String[] args) 
     {
-        // TODO code application logic here
+        PersonInfo dude = new PersonInfo();
+        
+        dude.SetName("Johnny");
+        dude.SetAddress("404 Whatever Street");
+        dude.SetAge(26);
+        dude.SetPhoneNumber("343-555-6969");
+        
+        
     }
 }

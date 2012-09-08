@@ -24,6 +24,14 @@ public class PersonInfo
         
     }
     
+    public PersonInfo(String name, String address, int age, String phone)
+    {
+        this.name = name;
+        this.address = address;
+        this.age = age;
+        this.phoneNum = phone;
+    }
+    
     public void SetName(String name)
     {
         this.name = name;
