@@ -14,6 +14,7 @@ public class PersonInfo
     private String address;
     private int age;
     private String phoneNum;
+    private String catchphrase;
     
     public PersonInfo ()
     {
@@ -21,6 +22,7 @@ public class PersonInfo
         address = "";
         age = 0;
         phoneNum = "000-000-0000";
+        catchphrase = "Hello World.";
         
     }
     
@@ -73,5 +75,16 @@ public class PersonInfo
     public String GetPhoneNumber()
     {
         return phoneNum;
+    }
+    
+    
+    public void SetCatchPhrase(String catchphrase)
+    {
+        this.catchphrase = catchphrase;
+    }
+    
+    public String GetCatchPhrase()
+    {
+        return catchphrase;
     }
 }
