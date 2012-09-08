@@ -26,6 +26,9 @@ public class PersonalInfoPractice
         dude.SetAge(26);
         dude.SetPhoneNumber("343-555-6969");
         
+        PersonInfo oldFart = new PersonInfo("Mister Crusty", 
+                "105 Gitoffmylawn Avenue", 75, "111-222-1234");
+        
         
     }
 }
